@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Adventure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Emoji Background -->
+  <div id="emoji-background"></div>
 
+  <!-- Main Story Container -->
+  <div class="story-container">
+    <h1>🌳 The Enchanted Forest Adventure 🏔️</h1>
+    <div id="story-text">
+      🌳 You find yourself at the beginning of an enchanted forest, where magic and mystery await. 
+      <p>Where will you go?</p>
+    </div>
+
+    <!-- Choices -->
+    <div id="options">
+      <button onclick="choosePath('forest')">🌳 Enter the forest</button>
+      <button onclick="choosePath('mountain')">🏔️ Climb the mountain</button>
+    </div>
+  </div>
+
+  <script src="story.js"></script>
+</body>
+</html>
